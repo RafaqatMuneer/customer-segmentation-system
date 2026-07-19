@@ -3,7 +3,8 @@
 An end-to-end Machine Learning application that segments customers into distinct groups using the **K-Means Clustering** algorithm. The project includes data preprocessing, model training, a Flask REST API, a Streamlit frontend, and deployment-ready structure.
 
 ---
-
+## Live demo at https://app-segmentation.streamlit.app/
+---
 ## 📌 Project Overview
 
 Customer segmentation helps businesses understand different customer groups based on their demographic and purchasing behavior. This project predicts the customer segment using K-Means Clustering and provides a meaningful business interpretation along with a marketing recommendation.
@@ -111,7 +112,7 @@ Customer segmentation helps businesses understand different customer groups base
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/RafaqatMuneer/customer-segmentation-system/tree/main
 ```
 
 ### 2. Navigate to the Project
