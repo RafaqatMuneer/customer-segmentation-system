@@ -45,7 +45,7 @@ with center:
             'Spending Score (1-100)':st.session_state.spending
         }
         try:
-            r=requests.post('http://127.0.0.1:5000/predict',json=payload,timeout=10)
+            r=requests.post('https://customer-segmentation-system-5nn9.onrender.com/predict',json=payload,timeout=10)
             if r.status_code==200:
                 res=r.json()
                 st.success('Prediction completed successfully!')
